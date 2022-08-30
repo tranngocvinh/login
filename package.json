@@ -1,0 +1,16 @@
+{
+  "name": "newsletter-signup",
+  "version": "1.0.0",
+  "description": "this is log in project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "VinhTran",
+  "license": "ISC",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
