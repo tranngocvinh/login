@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+  
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: radial-gradient(#60efbc, #58d5c9);
+  
+}
+
+.form-signin {
+  background-color:white;
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+  box-shadow:0 0 10px rgba(0,0,0);
+
+  
+  
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.top{
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:0px ;
+    border-bottom-left-radius:0px ;
+}
+
+.middle{
+    border-top-left-radius:0px ;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius:0px ;
+    border-bottom-left-radius:0px ;
+}
+
+.bottom{
+    border-top-left-radius:0px ;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius:5px ;
+    border-bottom-left-radius:5px ;
+}
+
+button{
+    margin-top: 20px;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Ubuntu', sans-serif;
+}
